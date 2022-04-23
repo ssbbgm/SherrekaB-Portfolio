@@ -251,3 +251,11 @@ h3 { font-size: var(--fs-h3);}
         z-index: 2;
     }
 }
+
+/* My Work  */
+
+.my-work {
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+    
+}
