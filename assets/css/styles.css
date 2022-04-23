@@ -119,5 +119,8 @@ h3 { font-size: var(--fs-h3);}
         grid-column: -1 / 1;
         grid-row: 2;
         text-align: right;
+        position: relative;
+        left: -1.5em;
+        width: calc(100% + 1.5em);
     }
 }
