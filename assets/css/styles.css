@@ -134,3 +134,11 @@ h3 { font-size: var(--fs-h3);}
         width: calc(100% + 1.5em);
     }
 }
+
+/* My Services Section  */
+
+.my-services {
+    background-color: var(--clr-dark);
+    background-image: url(../);
+    color: var(--clr-light)
+}
