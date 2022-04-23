@@ -257,5 +257,7 @@ h3 { font-size: var(--fs-h3);}
 .my-work {
     background-color: var(--clr-dark);
     color: var(--clr-light);
+    text-align: center;
     
+
 }
