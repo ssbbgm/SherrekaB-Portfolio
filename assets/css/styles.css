@@ -124,7 +124,7 @@ h3 { font-size: var(--fs-h3);}
     margin-bottom: 2em;
 }
 
-/* Header   */
+/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -176,10 +176,13 @@ header {
     background: transparent;
     border: 0;
     cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
 }
 
 .hamburger {
-
     display: block;
     position: relative;
 }
@@ -187,7 +190,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-dark);
+    background: var(--clr-accent);
     width: 2em;
     height: 3px;
     border-radius: 1em;
