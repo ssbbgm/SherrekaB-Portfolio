@@ -489,6 +489,12 @@ footer a {
     clear: both;
 }
 
+br {
+    display: block; /* makes it have a width */
+    content: ''; /* clears default height */
+    margin-top: 5px; /* change this to whatever height you want it */
+}
+
 .main {
     height: 1150px;
     width: 800px;
@@ -573,6 +579,7 @@ footer a {
     margin-left: -20px;
     margin-bottom: 0px;
 }
+
 
 .skills li {
     padding: 5px;
