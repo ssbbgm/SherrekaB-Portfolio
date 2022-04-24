@@ -275,7 +275,7 @@ header {
 
 /* My Services Section  */
 
-.my-services {
+.my-skills {
     background: var(--clr-dark);
     background-image: url(../images/test-images/services-bg.jpg);
     background-size: cover;
@@ -284,13 +284,13 @@ header {
     text-align: center;
 }
 
-.section__title--services {
+.section__title--skills {
     color: var(--clr-accent);
     position: relative;
 
 }
 
-.section__title--services::after {
+.section__title--skills::after {
     content: '';
     display: block;
     width: 2em;
@@ -300,24 +300,24 @@ header {
     opacity: 0.25;
 }
 
-.services {
+.skills {
     margin-bottom: 4em;
 }
 
-.service {
+.skill {
     max-width: 500px;
     margin: 0 auto;
 }
 
 @media (min-width: 600px) {
-    .services {
+    .skills {
         display: flex;
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    .service + .service {
+    .skill + .skill {
         margin-left: 2em;
     }
 }
@@ -579,17 +579,17 @@ br {
 .fa {
     color: var(--clr-dark);
 }
-.skills {
+.resume-skills {
     margin-left: -20px;
     margin-bottom: 0px;
 }
 
 
-.skills li {
+.resume-skills li {
     padding: 5px;
 }
 
-.skills li span {
+.resume-skills li span {
     color: #969595;
 }
 
