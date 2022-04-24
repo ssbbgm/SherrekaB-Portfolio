@@ -310,6 +310,14 @@ header {
 
 }
 
+.skill h3 {
+    margin-bottom: 0.5em;
+}
+
+.skill div:last-child{
+    margin-bottom: 1em;
+}
+
 @media (min-width: 600px) {
     .skills {
         display: flex;
