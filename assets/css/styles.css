@@ -266,8 +266,9 @@ h3 { font-size: var(--fs-h3);}
 }
 
 .portfolio {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    justify-content: center ;
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, .5fr); */
     /* If you want a max-width, do that, but also add margin to be 0 auto for centering */
 }
 
@@ -282,7 +283,13 @@ h3 { font-size: var(--fs-h3);}
     opacity 250ms linear;
 }
 
-.portfolio__img:hover {
+.portfolio__item:focus {
+    position: relative;
+    z-index: 2;
+}
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
     opacity: .75;
 }
