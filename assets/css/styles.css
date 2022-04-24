@@ -409,7 +409,7 @@ header {
     }
 
     .portfolio__img {
-        flex-grow: 1;
+        width: 100%;
     }
 
 }
