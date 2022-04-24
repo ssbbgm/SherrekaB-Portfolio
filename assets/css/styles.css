@@ -408,6 +408,10 @@ header {
         max-width: auto;
     }
 
+    .portfolio__img {
+        flex-grow: 1;
+    }
+
 }
 
 /* Footer  */
