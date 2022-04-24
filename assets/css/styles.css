@@ -171,6 +171,13 @@ header {
     color: var(--clr-accent);
 }
 
+.nav-toggle {
+    padding: .5em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
 .hamburger {
 
     display: block;
