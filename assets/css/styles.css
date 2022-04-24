@@ -273,6 +273,7 @@ h3 { font-size: var(--fs-h3);}
 
 .portfolio__item {
     background: var(--clr-accent);
+    overflow: hidden;
 }
 
 .portfolio__img {
@@ -282,5 +283,6 @@ h3 { font-size: var(--fs-h3);}
 }
 
 .portfolio__img:hover {
-    
+    transform: scale(1.2);
+    opacity: .75;
 }
