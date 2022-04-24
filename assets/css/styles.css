@@ -528,3 +528,7 @@ footer a {
     margin: 0px;
     margin-top: 10px;
 }
+
+.content-box {
+    padding-left: 40px;
+}
