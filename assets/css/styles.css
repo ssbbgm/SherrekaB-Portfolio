@@ -16,7 +16,7 @@
     --clr-accent: #16e0bd;
 
     --fs-h1: 3rem;
-    --f2-h2: 2.25rem;
+    --fs-h2: 2.25rem;
     --fs-h3: 1.25rem;
     --fs-body: 1rem;
 
@@ -307,6 +307,7 @@ header {
 .skill {
     max-width: 500px;
     margin: 0 auto;
+
 }
 
 @media (min-width: 600px) {
@@ -315,10 +316,16 @@ header {
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
+
     }
 
     .skill + .skill {
         margin-left: 2em;
+        margin-top: 5px;
+    }
+
+    .skill:last-child {
+        margin-bottom: 10px;
     }
 }
 
