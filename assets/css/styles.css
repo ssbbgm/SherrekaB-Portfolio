@@ -593,3 +593,7 @@ br {
     font-size: 14px;
     color: #969595;
 }
+
+.resume-link {
+    text-align: center;
+}
