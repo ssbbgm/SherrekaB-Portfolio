@@ -17,10 +17,7 @@
 * Contact Me
     * I'm looking for a position in the tech industry that will allow me to contribute to projects that make our world better. Please contact me to see if we are a good fit for each other!
 
-## CONTRIBUTORS
-
-![It Me.](https://media.giphy.com/media/5ByDpcirAHz8RQaumf/giphy-downsized-large.gif) 
 
 ## DEPLOYED APPLICATION
 
- https://ssbbgm.github.io/hw2-advancedcss-portfolio/
+https://ssbbgm.github.io/SherrekaB-Portfolio/
